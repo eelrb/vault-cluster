@@ -25,7 +25,7 @@ resource "aws_instance" "blee-vault" {
   #subnet_id = "${aws_subnet.subnet1.id}"
   key_name = "blee-keypair"
   tags {
-    Name = "${var.instance_name_vault}"
+    #Name = "${var.instance_name_vault}"
 
   }
 }
